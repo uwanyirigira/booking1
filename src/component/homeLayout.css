@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.home-container{
+    background-image: url(../assets/img/back.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height:90vh;
+    width: 100%;
+
+}
+.home-bg{
+    height: auto;
+    width: 100%;
+    padding:20px 40px 20px 40px;
+    background: rgba(0, 0, 0, 0.452);
+    text-align: center;
+}
+.home-bg h1{
+    color:white;
+    font-size: 70px;
+    font-family: sans-serif;
+}
+.quote-div{
+    text-align: center;
+   
+}
+p{
+    position: relative;
+    font-size: 1.2rem;
+    color: aliceblue;
+    line-height: normal;
+    justify-content: space-evenly;
+}
